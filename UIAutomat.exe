@@ -1,0 +1,7 @@
+@echo off
+echo Running Maven tests...
+cd C:\Users\deepa\eclipse-workspace\SeleniumTraining\
+mvn clean test
+echo Tests completed. Opening the report...
+start file:///C:/Users/deepa/eclipse-workspace/SeleniumTraining/test-output/Test%20Suite/Login%20Page%20Testing.html#
+exit

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T09:12:30 IST" name="Default suite" finished-at="2023-08-07T09:12:39 IST" duration-ms="9079">
+    <groups>
+      <group name="regression">
+        <method signature="TestZNGImp.validateUsernameInputExists()[pri:2, instance:UI.TestZNGImp@53fb3dab]" name="validateUsernameInputExists" class="UI.TestZNGImp"/>
+        <method signature="TestZNGImp.validatePasswordInputExists()[pri:3, instance:UI.TestZNGImp@53fb3dab]" name="validatePasswordInputExists" class="UI.TestZNGImp"/>
+        <method signature="TestZNGImp.validateLoginButtonExists()[pri:4, instance:UI.TestZNGImp@53fb3dab]" name="validateLoginButtonExists" class="UI.TestZNGImp"/>
+        <method signature="TestZNGImp.validatePlaceholders()[pri:5, instance:UI.TestZNGImp@53fb3dab]" name="validatePlaceholders" class="UI.TestZNGImp"/>
+        <method signature="TestZNGImp.validateLoginButtonValue()[pri:6, instance:UI.TestZNGImp@53fb3dab]" name="validateLoginButtonValue" class="UI.TestZNGImp"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-08-07T09:12:30 IST" name="Default test" finished-at="2023-08-07T09:12:39 IST" duration-ms="9079">
+      <class name="UI.TestZNGImp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:30 IST" name="setUp" description="Setting up the browser" finished-at="2023-08-07T09:12:33 IST" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUsernameInputExists()[pri:2, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:33 IST" name="validateUsernameInputExists" description="Validating username input field exists" finished-at="2023-08-07T09:12:33 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameInputExists -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:33 IST" name="closeDown" description="Exit the browser" finished-at="2023-08-07T09:12:33 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:33 IST" name="setUp" description="Setting up the browser" finished-at="2023-08-07T09:12:34 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePasswordInputExists()[pri:3, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:34 IST" name="validatePasswordInputExists" description="Validating password input field exists" finished-at="2023-08-07T09:12:34 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordInputExists -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:34 IST" name="closeDown" description="Exit the browser" finished-at="2023-08-07T09:12:34 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:34 IST" name="setUp" description="Setting up the browser" finished-at="2023-08-07T09:12:36 IST" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginButtonExists()[pri:4, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:36 IST" name="validateLoginButtonExists" description="Validating login button exists" finished-at="2023-08-07T09:12:36 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonExists -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:36 IST" name="closeDown" description="Exit the browser" finished-at="2023-08-07T09:12:36 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:36 IST" name="setUp" description="Setting up the browser" finished-at="2023-08-07T09:12:38 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePlaceholders()[pri:5, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:38 IST" name="validatePlaceholders" description="Validating placeholders are correct" finished-at="2023-08-07T09:12:38 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceholders -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:38 IST" name="closeDown" description="Exit the browser" finished-at="2023-08-07T09:12:38 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:38 IST" name="setUp" description="Setting up the browser" finished-at="2023-08-07T09:12:39 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginButtonValue()[pri:6, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:39 IST" name="validateLoginButtonValue" description="Validating login button value" finished-at="2023-08-07T09:12:39 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonValue -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:UI.TestZNGImp@53fb3dab]" started-at="2023-08-07T09:12:39 IST" name="closeDown" description="Exit the browser" finished-at="2023-08-07T09:12:39 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- UI.TestZNGImp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
